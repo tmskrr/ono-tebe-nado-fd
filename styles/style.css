@@ -6,8 +6,6 @@
     width: 100%;
     max-width: 1100px;
     height: 293px;
-    margin: 0 auto;
-    padding: 0 50px;
     box-sizing: border-box;
     font-size: 18px;
     font-style: normal;
@@ -20,15 +18,9 @@
 .header__links-list {
     display: flex;
     gap: 13px;
-    margin: 0;
-    padding: 0;
     list-style: circle;
     list-style-position: inside;
 }
-
-.header__links-list-item {
-}  
-
 
 .header__link_active {
     text-decoration: none; 
@@ -45,17 +37,18 @@
 .header__logo-image {
     width: 148px;
     height: 105px;
-    
 }
 
 .header__address {
-justify-self: end;
 max-width: 240px;
 text-align: left;
+margin-left: 184px;
 }
 
-  
   .cover { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     position: relative; 
     background-image: url(../images/cover.jpg);
     background-size: cover;
@@ -67,7 +60,12 @@ text-align: left;
   }
 
   .overlay-cover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     position: absolute;
+    gap: 20px;
+    padding: 165px 50px 0;
     inset: 0;  
     background-color: rgba(0, 0, 0, 0.6); 
     z-index: 1;
@@ -84,21 +82,17 @@ text-align: left;
 
   .aligned-text {
     display: block;
-    text-align: left;
-    margin-bottom: 20px;
   }
 
   .aligned-text_center {
     display: block;
     text-align: center;
     margin-bottom: 20px;
-    
   }
 
   .aligned-text_right {
     display: block;
     text-align: right;
-
   }
 
   .letter-spacing-extended {
@@ -111,16 +105,15 @@ text-align: left;
     position: relative;
     z-index: 2;
     align-items: center;
-    margin-top: 118px;
-    padding: 0 50px 50px;
-    
+    margin-top: 106px;
+    padding: 0 50px 50px; 
   }
 
   .cover__description-text {
     text-transform: uppercase;
     word-spacing: 22px;
     font-size: 22px;
-    
+    font-weight: 400;
   }
 
   .bet-button {
@@ -131,27 +124,25 @@ text-align: left;
     color: #fff;
     border: 1px solid #fff;
     font-size: 22px;
-
+    font-weight: 500;
   }
   
-  
   .lots {
-    margin-top: 180px;
-    padding: 2 24px;
+    margin: 180px auto 0;
+    padding: 0 24px;
     color: #fff;
     z-index: 2;
     position: relative;
     max-width: 1100px;
-    
   }
 
 .lots__heading {
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 27px;
+    margin-left: 64px;
     text-transform: uppercase;
     color: #000;
-
 }
 
 .lots__card-list {
@@ -159,21 +150,18 @@ text-align: left;
     gap: 25px;
     list-style: none;
     margin: 0;
-    padding: 0;
-    
+    padding: 0; 
 }
 
 .lots__card-list-item {
     width: 334px;
     min-height: 596px;
-
 }
 
 .card-link {
     display: block;
     text-decoration: none;
     height: 100%;
-
 }
 
 .card {
@@ -186,24 +174,18 @@ text-align: left;
     padding: 48px 40px 48px;
     background-size: cover;
     background-position: center;
-
-
 }
 
 .card_type_film {
     background-image: url(../images/card-lot-01.jpg);
- 
-    
 }
 
 .card_type_book {
     background-image: url(../images/card-lot-02.jpg);
-
 }
 
 .card_type_picture {
     background-image: url(../images/card-lot-03.jpg);
-
 }
 
 .overlay-lots {
@@ -211,7 +193,6 @@ text-align: left;
     inset: 0;  
     background-color: rgba(0, 0, 0, 0.6); 
     z-index: 1;
-
 }
 
 .card__title {
@@ -222,8 +203,6 @@ text-align: left;
     line-height: 120%;
     text-transform: uppercase;
     text-decoration: underline;
-   
-    
 }
 
 .card__text {
@@ -232,7 +211,6 @@ text-align: left;
     font-weight: 400;
     font-size: 20px;
     line-height: 120%; 
-
 }
 
 .lots__look-more-link {
@@ -252,9 +230,6 @@ text-align: left;
     margin-top: 120px;
     padding: 0 24px 180px;
   }
-
-.about__column {
-}
 
 .about__logo {
     background-color: #000;
@@ -277,7 +252,7 @@ text-align: left;
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 100px;
-    margin-top: 133px;
+    margin-top: 136px;
     text-transform: uppercase;
     color: #000;
 }
@@ -285,7 +260,6 @@ text-align: left;
 .about__text {
     font-weight: 400;
     font-size: 20px;
-
 }
 
 .about__text-first {
@@ -313,32 +287,18 @@ text-align: left;
     font-size: 18px;
   }
 
-.address__link {
-
-  }
-    
 .footer__menu {
     justify-self: center;
     font-size: 18px;
     text-align: center;
-
 }
 
 .footer__menu-list {
     list-style: none;
 }
 
-.footer__menu-list-item {
-
-}
-
-.footer__menu-link {
-
-}
-
 .footer__menu-link_active {
     text-decoration: none;
-
 }
 
 .footer__social-list {
@@ -353,17 +313,14 @@ text-align: left;
 .footer__social-list-item {
     width: 48px;
     height: 48px;
-
 }
 
 .footer__social-link {
     width: 48px;
     height: 48px;
-
 }
 
 .footer__social-icon {
     width: 48px;
     height: 48px;
-    
 }
