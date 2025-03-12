@@ -23,15 +23,15 @@
 }
 
 .header__link_active {
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 .header__links-list-item_no-bullit {
-    list-style: none; 
+    list-style: none;
   }
 
 .header__logo {
-    justify-self: center; 
+    justify-self: center;
 }
 
 .header__logo-image {
@@ -45,11 +45,11 @@ text-align: left;
 margin-left: 184px;
 }
 
-.cover { 
+.cover {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    position: relative; 
+    position: relative;
     background-image: url(../images/cover.jpg);
     background-size: cover;
     background-position: center;
@@ -67,8 +67,8 @@ margin-left: 184px;
     position: absolute;
     gap: 20px;
     padding: 165px 50px 0;
-    inset: 0;  
-    background-color: rgba(0, 0, 0, 0.6); 
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6);
     z-index: 1;
   }
 
@@ -111,12 +111,12 @@ margin-left: 184px;
 
 .cover__description {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     position: relative;
     z-index: 2;
     align-items: center;
     margin-top: 106px;
-    padding: 0 50px 50px; 
+    padding: 0 50px 50px;
   }
 
 .cover__description-text {
@@ -160,7 +160,7 @@ margin-left: 184px;
     gap: 25px;
     list-style: none;
     margin: 0;
-    padding: 0; 
+    padding: 0;
 }
 
 .lots__card-list-item {
@@ -179,7 +179,7 @@ margin-left: 184px;
     z-index: 2;
     display: flex;
     flex-direction: column;
-    justify-content:space-between; 
+    justify-content:space-between;
     height: 100%;
     padding: 48px 40px 48px;
     background-size: cover;
@@ -200,8 +200,8 @@ margin-left: 184px;
 
 .overlay-lots {
     position: absolute;
-    inset: 0;  
-    background-color: rgba(0, 0, 0, 0.6); 
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6);
     z-index: 1;
 }
 
@@ -220,7 +220,7 @@ margin-left: 184px;
     z-index: 2;
     font-weight: 400;
     font-size: 20px;
-    line-height: 120%; 
+    line-height: 120%;
 }
 
 .lots__look-more-link {
