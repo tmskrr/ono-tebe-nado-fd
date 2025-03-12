@@ -1,4 +1,3 @@
-
 .header {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
@@ -9,6 +8,7 @@
     box-sizing: border-box;
     font-size: 18px;
     font-style: normal;
+    padding: 0 50px;
   }
   
 .header__menu {
@@ -42,7 +42,7 @@
 .header__address {
 max-width: 240px;
 text-align: left;
-margin-left: 184px;
+justify-self: end;
 }
 
   .cover { 
@@ -62,7 +62,6 @@ margin-left: 184px;
   .overlay-cover {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     position: absolute;
     gap: 20px;
     padding: 165px 50px 0;
@@ -77,17 +76,22 @@ margin-left: 184px;
     font-size: 100px;
     font-weight: bold;
     line-height: 115%;
-    padding: 165px 50px 0;
   }
 
   .aligned-text {
     display: block;
   }
 
+  .aligned-text_left {
+    display: block;
+    text-align: left;
+    padding: 165px 50px 0;
+  }
+
   .aligned-text_center {
     display: block;
     text-align: center;
-    margin-bottom: 20px;
+    
   }
 
   .aligned-text_right {
@@ -140,7 +144,7 @@ margin-left: 184px;
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 27px;
-    margin-left: 64px;
+    margin-left: 40px;
     text-transform: uppercase;
     color: #000;
 }
@@ -229,6 +233,7 @@ margin-left: 184px;
     height: 595px;
     margin-top: 120px;
     padding: 0 24px 180px;
+    margin-bottom: 72px;
   }
 
 .about__logo {
@@ -239,8 +244,8 @@ margin-left: 184px;
     display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
     margin-top: 35px;
+    margin-left: 47px;
 }
 
 .about__logo-image {
