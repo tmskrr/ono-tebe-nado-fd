@@ -42,10 +42,10 @@
 .header__address {
 max-width: 240px;
 text-align: left;
-justify-self: end;
+margin-left: 184px;
 }
 
-  .cover { 
+.cover { 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -57,9 +57,11 @@ justify-self: end;
     z-index: 0;
     min-height: 757px;
     max-width: 1100px;
+    margin: 0 auto;
+    width: 100%;
   }
 
-  .overlay-cover {
+.overlay-cover {
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -70,40 +72,44 @@ justify-self: end;
     z-index: 1;
   }
 
-  .cover__title {
+.cover__title {
     position: relative;
     z-index: 2;
     font-size: 100px;
     font-weight: bold;
     line-height: 115%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 50px;
   }
 
-  .aligned-text {
+.aligned-text {
     display: block;
   }
 
-  .aligned-text_left {
+.aligned-text_left {
     display: block;
     text-align: left;
-    padding: 165px 50px 0;
+    margin-bottom: 20px;
+    margin-top: 165px;
   }
 
-  .aligned-text_center {
+.aligned-text_center {
     display: block;
     text-align: center;
-    
+    margin-bottom: 20px;
   }
 
-  .aligned-text_right {
+.aligned-text_right {
     display: block;
     text-align: right;
   }
 
-  .letter-spacing-extended {
+.letter-spacing-extended {
     letter-spacing: 0.3em;
   }
 
-  .cover__description {
+.cover__description {
     display: flex;
     justify-content: space-between; 
     position: relative;
@@ -113,14 +119,14 @@ justify-self: end;
     padding: 0 50px 50px; 
   }
 
-  .cover__description-text {
+.cover__description-text {
     text-transform: uppercase;
     word-spacing: 22px;
     font-size: 22px;
     font-weight: 400;
   }
 
-  .bet-button {
+.bet-button {
     display: inline-block;
     background-color: transparent;
     text-transform: uppercase;
@@ -131,7 +137,7 @@ justify-self: end;
     font-weight: 500;
   }
   
-  .lots {
+.lots {
     margin: 180px auto 0;
     padding: 0 24px;
     color: #fff;
@@ -225,7 +231,7 @@ justify-self: end;
     color: #000;
 }
   
-  .about {
+.about {
     display: grid;
     grid-template-columns: 334px 1fr;
     background-color: transparent;
@@ -233,7 +239,6 @@ justify-self: end;
     height: 595px;
     margin-top: 120px;
     padding: 0 24px 180px;
-    margin-bottom: 72px;
   }
 
 .about__logo {
@@ -257,7 +262,7 @@ justify-self: end;
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 100px;
-    margin-top: 136px;
+    margin-top: 133px;
     text-transform: uppercase;
     color: #000;
 }
